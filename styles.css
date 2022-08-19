@@ -174,70 +174,55 @@ overflow: hidden;
 
      /* smart phone, tablets*/
      @media (max-width: 768px) {
-        .title{
-            font-size: 80px;
-        }
+     
 
-        .header__para{
-            font-size: 20px;
-        }
+      .modal__contact{
+        width: 100%;
+        box-shadow: none;
 
-        .modal{
-            top: 0;
-            left: 0;
-            transform: none;
-            height: auto;
-            width: 100%;
-            flex-direction: column-reverse;
-        }
+      }
 
-        .modal__half{
-            width: 100%;
-            border-radius: 0;
-        }
-        .shape{
-            visibility: hidden;
-            display: none;
-        }
-    }
-
-
- 
-
-    @media(max-width:480px){
-        .shape{
-            visibility: hidden;
-            display: none;
-        }
-
-        .title{
-            font-size: 52px;
-        }
-
-        .header__para{
-            font-size: 18px;
-        }
-
-        .nav__link:first-child{
-            display: none;
-        }
-
-        .project__description--para{
-            display: none;
-        }
-
-        .project__description{
-            left: 0;
-            padding: 0;
-            width: 100%;
-            text-align: center;
-        }
-        .project__descritpion--sub-title{
-            margin-bottom: 8px;  
-        }
-
-        .modal__half{
-            padding: 40px;
-        }
+    .modal{
+        width: 100%;
+        flex-direction: column-reverse;
+        transform: none;
+        top: 0;
+        left: 0;
+        margin-top: 25px;
 
     }
+
+    .picture{
+        height: 250px;
+        margin-left: 50px;
+        border-radius: 10px; 
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        
+    }
+
+   .link{
+    flex-direction: column;
+    font-size: 25px;
+     margin-left: 200px;
+     width: 100%;
+     padding: 12px;
+     margin-bottom: 12px;
+
+   }
+
+   .nav-text{
+    margin-left: 75px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.video{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 200px;
+    width: 80%;
+    box-shadow: 0 20px 20px 0 black;
+    overflow: hidden;
+    }
+  
+}

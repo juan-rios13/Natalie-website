@@ -79,10 +79,20 @@ nav{
 }
 
 .nav-text{
-    font-weight: 400;
-    letter-spacing: -.05em;
-    font-size: 30px;
+
     position: fixed;
+    margin: 0;
+    font-size: 1.5em;
+    margin-top: -0.31em;
+    color: white;
+    text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+    transform: rotate(-7deg);
+
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  display: inline-block;
 }
 
 /* HEADER */
@@ -137,11 +147,16 @@ nav{
     padding: 16px; 
     display: flex;
     flex-direction: column;   
-    font-size: 70px;
+    font-size: 64px;
     margin-bottom: 12px;
     color: black;
     font-weight: 400;
-    letter-spacing: .05em;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+ 
 
   
 }

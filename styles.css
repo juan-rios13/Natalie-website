@@ -155,6 +155,7 @@ nav{
   font-weight: 900;
   text-transform: uppercase;
   font-style: italic;
+  
 }
     
 .tiktok{
@@ -164,7 +165,9 @@ nav{
 }
 
 .insta{
-    filter: drop-shadow(2px 0px 0px #fd5949) drop-shadow(-2px -2px 0px #fdf497);
+    color: orange;
+    ;
+    filter: drop-shadow(2px 0px 0px #fd5949) drop-shadow(-2px -2px 0px #fd5949);
 }
 
 .youtube{

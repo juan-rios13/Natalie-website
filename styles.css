@@ -143,27 +143,34 @@ nav{
 
 
 .link{
+
     width: 25%;
-    padding: 16px; 
+    padding: 28px; 
     display: flex;
     flex-direction: column;   
-    font-size: 64px;
+    font-size: 48px;
     margin-bottom: 12px;
     color: black;
-    font-weight: 400;
   font-family: "Avenir Next", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   font-style: italic;
-  letter-spacing: 0.05em;
- 
-
-  
 }
     
-    
+.tiktok{
+    color: #111111;
+  
+     filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+}
 
+.insta{
+    filter: drop-shadow(2px 0px 0px #fd5949) drop-shadow(-2px -2px 0px #fdf497);
+}
 
+.youtube{
+    color: #FF0000;
+    filter: drop-shadow(2px 0px 0px #282828) 
+}
 .picture{
     max-width: 700px;
     height: 700px;
@@ -222,8 +229,12 @@ overflow: hidden;
      width: 100%;
      padding: 12px;
      margin-bottom: 12px;
-
    }
+
+   .logo{
+visibility: hidden;
+   }
+
 
    .nav-text{
     margin-left: 75px;

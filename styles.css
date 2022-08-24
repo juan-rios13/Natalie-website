@@ -222,7 +222,7 @@ overflow: hidden;
 
     .picture{
         height: 200px;
-        margin-left: 125px;
+        margin-left: 115px;
         border-radius: 10px; 
      
 
@@ -232,7 +232,7 @@ overflow: hidden;
    .link{
     flex-direction: column;
     font-size: 25px;
-     margin-left: 250px;
+     margin-left: 235px;
      width: 100%;
      padding: 0px;
      margin-bottom: 12px;
@@ -249,7 +249,7 @@ visibility: hidden;
 
 
    .nav-text{
-    margin-left: 75px;
+    margin-left: 65px;
     font-size: 30px;
     position: absolute;
 }
